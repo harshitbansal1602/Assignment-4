@@ -1,0 +1,37 @@
+input[type="text"] {
+	height:45px;
+}
+
+.name {
+	display:inline-block;
+	cursor:pointer;
+}
+
+.name ~ table{
+	display:none;
+}
+
+.name ~ a{
+	text-decoration:none;
+	font-size:18px;
+}
+
+#table_div{
+	width:100%;
+}
+
+table,td,th{
+	
+	border-collapse:collapse;
+	border:1px solid black;
+}
+
+td{
+	padding:5px;
+	font-size:20px;
+	height:30px;
+}
+
+tr:nth-child(even){
+	background-color:#d9d9d9;
+}

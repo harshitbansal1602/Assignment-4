@@ -1,0 +1,46 @@
+#container {
+	height:900px;
+}
+
+#footer {
+	margin-top:50px;
+	height:100px;
+	background-color:rgba(0,0,0,.8);
+}
+
+
+::-webkit-input-placeholder {
+   font-size:22px;
+   color:#47476b;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-size:22px;
+   color:#47476b;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-size:22px;
+   color:#47476b;
+}
+
+:-ms-input-placeholder {  
+   font-size:22px;
+   color:#47476b;
+}
+
+input[type="text"],input[type="password"],input[type="email"] {
+	margin-top:10px;
+	padding:20px;
+	width:100%;
+	height:45px;
+	border:3px solid #33334d;
+	border-radius:5px;
+	background-color:#c2c2d6;
+	outline:none;
+	font-size:22px;
+}
+
+#container {
+	margin-top:50px;
+}
